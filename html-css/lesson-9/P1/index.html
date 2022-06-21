@@ -12,6 +12,7 @@
       .child,
       .parent {
         border: 2px solid black;
+        padding: 16px;
       }
       .parent {
         width: 300px;
@@ -21,13 +22,28 @@
 
       .child {
         background-color: yellow;
+        position: absolute;
+        left: 200px;
       }
+
+      .relative-parent {
+        position: relative;
+        top: 20px;
+        left: 20px;
+      }
+
+      /* static absolute relative fixed */
+      /*static - the default position horisontal*/
     </style>
   </head>
   <body>
     <div class="separator"></div>
-    <div class="parent">
-      <div class="child"></div>
+    <div class="parent static-parent">
+      <div class="child">I am child</div>
+    </div>
+    <div class="separator"></div>
+    <div class="parent relative-parent">
+      <div class="child">I am child</div>
     </div>
   </body>
 </html>
