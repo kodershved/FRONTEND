@@ -2,11 +2,32 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      .separator {
+        height: 50px;
+        background-color: aliceblue;
+      }
+
+      .child,
+      .parent {
+        border: 2px solid black;
+      }
+      .parent {
+        width: 300px;
+        height: 100px;
+        background-color: yellowgreen;
+      }
+
+      .child {
+        background-color: yellow;
+      }
+    </style>
   </head>
   <body>
-    <div>Hello</div>
+    <div class="separator"></div>
+    <div class="parent">
+      <div class="child"></div>
+    </div>
   </body>
 </html>
