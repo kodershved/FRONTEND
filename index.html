@@ -2,59 +2,102 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU="
+      crossorigin="anonymous"
+    />
+
     <style>
-      .blocks {
-        width: 100%;
+      li {
+        list-style-type: none;
+      }
+      .header {
         position: fixed;
-        left: 0;
+        height: 40px;
+        background-color: darkturquoise;
         top: 0;
+        width: 100%;
       }
 
-      .block_red {
-        background-color: red;
-        width: 20%;
-        height: 200px;
+      .navigation {
+        height: 40px;
+      }
+      .nav-item {
         float: left;
+        line-height: 10px;
+        color: white;
+        margin-left: 16px;
       }
 
-      .block_green {
-        background-color: green;
-        float: left;
-        width: 20%;
-        height: 200px;
+      .content {
+        height: 5000px;
+        background-color: beige;
       }
-      .block_blue {
-        background-color: blue;
-        width: 20%;
+      .head {
+        position: absolute;
+        width: 200px;
         height: 200px;
-        float: left;
-      }
-
-      .block_yellow {
-        background-color: yellow;
-        width: 20%;
-        height: 200px;
-        float: left;
+        background-color: aquamarine;
+        left: 50%;
+        top: 50%;
+        margin-top: -100px;
+        margin-left: -100px;
       }
 
-      .block_black {
-        background-color: black;
-        width: 20%;
-        height: 200px;
+      .ear {
+        background-color: brown;
+        width: 40px;
+        height: 60px;
         float: left;
+        margin-top: -60px;
+      }
+
+      .ear_left {
+        margin-left: -40px;
+      }
+
+      .ear_right {
+        margin-left: 200px;
+      }
+
+      .eye {
+        background-color: gray;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        float: left;
+        margin-top: 80px;
+      }
+
+      .eye_right {
+        margin-left: 40px;
+      }
+      .eye_left {
+        margin-left: 60px;
       }
     </style>
   </head>
+
   <body>
-    <div class="blocks">
-      <div class="block_red"></div>
-      <div class="block_green"></div>
-      <div class="block_blue"></div>
-      <div class="block_yellow"></div>
-      <div class="block_black"></div>
-    </div>
+    <header class="header">
+      <nav class="navigation">
+        <ul class="nav-list">
+          <li class="nav-item">Home</li>
+          <li class="nav-item">Products</li>
+          <li class="nav-item">Contacts</li>
+        </ul>
+      </nav>
+    </header>
+    <main class="content">
+      <div class="head">
+        <div class="ear ear_right"></div>
+        <div class="ear ear_left"></div>
+        <div class="eye eye_right"></div>
+        <div class="eye eye_left"></div>
+      </div>
+    </main>
   </body>
 </html>
