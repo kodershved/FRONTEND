@@ -2,53 +2,82 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Float</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU="
+      crossorigin="anonymous"
+    />
     <style>
       * {
-        margin: 0;
-        padding: 0;
+        box-sizing: border-box;
       }
-      .blocks {
-        width: 100%;
-        float:left;
-        /* box-sizing: content-box; */
+      .square {
+        width: 100px;
+        height: 100px;
       }
 
-      .all {
-        width: 20%;
+      body {
+        /* display: flex; */
+      }
+
+      .position {
         float: left;
-        height: 200px;
       }
 
-      .block_red {
+      section {
+        background: aquamarine;
+        padding: 16px;
+        width: 50%;
+        float: left;
+      }
+
+      footer {
+        height: 30px;
+        border: 2px solid black;
+        clear: both;
+      }
+
+      .red {
         background-color: red;
+        float: right;
       }
 
-      .block_green {
+      .green {
         background-color: green;
-      }
-      .block_blue {
-        background-color: blue;
-      }
-
-      .block_yellow {
-        background-color: yellow;
-      }
-
-      .block_black {
-        background-color: black;
+        float: left;
       }
     </style>
   </head>
+
   <body>
-    <div class="blocks">
-      <div class="all block_red"></div>
-      <div class="all block_green"></div>
-      <div class="all block_blue"></div>
-      <div class="all block_yellow"></div>
-      <div class="all block_black"></div>
-    </div>
+    <section class="container">
+      <h2>Big text</h2>
+      <div class="red square"></div>
+      <div class="green square"></div>
+      <p>
+        The float CSS property places an element on the left or right side of
+        its container, allowing text and inline elements to wrap around it. The
+        element is removed from the normal flow of the page, though still
+        remaining a part of the flow (in contrast to absolute positioning). As
+        mentioned above, when an element is floated, it is taken out of the
+        normal flow of the document (though still remaining part of it). It is
+        shifted to the left, or right, until it touches the edge of its
+        containing box, or another floated element. In this example, there are
+        three colored squares. Two are floated left, and one is floated right.
+        Note that the second "left" square is placed to the right of the first.
+        Additional squares would continue to stack to the right, until they
+        filled the containing box, after which they would wrap to the next line.
+      </p>
+      <footer class="footer"></footer>
+    </section>
+    <section class="container">
+      <h2>Small text</h2>
+      <div class="red square"></div>
+      <div class="green square"></div>
+      <p>Small text</p>
+      <footer class="footer"></footer>
+    </section>
   </body>
 </html>
