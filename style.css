@@ -13,19 +13,16 @@
       * {
         margin: 0;
       }
-      .block {
+      div.block {
+        background-color: coral;
+        margin: 8px;
         height: 100px;
         min-width: 100px;
         flex-grow: 1;
         flex-shrink: 0;
       }
-      div.block {
-        background-color: coral;
-        margin: 8px;
-      }
       .container {
         display: flex;
-        justify-content: space-between;
         flex-wrap: wrap;
       }
     </style>
