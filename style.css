@@ -16,6 +16,8 @@
       .block {
         height: 100px;
         min-width: 100px;
+        flex-grow: 1;
+        flex-shrink: 0;
       }
       div.block {
         background-color: coral;
