@@ -13,7 +13,6 @@
       .block {
         height: 100px;
         min-width: 100px;
-        flex-shrink: 0;
         flex-grow: 1;
       }
       div.block {
@@ -22,7 +21,7 @@
       }
       .container {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         flex-wrap: wrap;
       }
     </style>
