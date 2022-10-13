@@ -63,3 +63,6 @@ div {
   top: 20px;
   left: 30px;
 }
+.static-parent{
+  position:static;
+}
