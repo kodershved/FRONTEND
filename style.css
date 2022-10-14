@@ -1,23 +1,19 @@
-* {
-  padding: 0;
-  box-sizing: border-box;
+div > div {
+  width: 100px;
+  height: 100px;
+  background: coral;
 }
 
-.header {
-  text-align: center;
+/* put your code here */
+
+div:nth-child(1){
+display: none;
 }
 
-.article {
-  margin: 8px;
-  padding: 16px;
-  background-color: bisque;
-  flex-basis: 300px;
-  flex-grow: 2;
-  flex-shrink: 1;
+div:nth-child(2){
+  visibility: hidden;
 }
 
-.articles-list {
-  display: flex;
-  flex-wrap: wrap;
-  /* justify-content: space-around; */
+div:nth-child(3){
+  visibility: visible;
 }
