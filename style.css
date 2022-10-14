@@ -1,5 +1,7 @@
 * {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .header {
@@ -11,8 +13,11 @@
   padding: 16px;
   background-color: bisque;
   flex-basis: 300px;
+  flex-grow: 1;
+  flex-shrink: 0;
 }
 
 .articles-list {
   display: flex;
+  flex-wrap: wrap;
 }
