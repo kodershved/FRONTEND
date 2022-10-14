@@ -2,8 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link
       rel="stylesheet"
@@ -11,107 +9,50 @@
       integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU="
       crossorigin="anonymous"
     />
+
     <style>
       * {
         margin: 0;
         padding: 0;
       }
-      .header {
-        background-color: yellow;
-        height: 40px;
-        display: flex;
-        align-items: center;
+      .block {
+        height: 300px;
+        width: 20%;
+      }
+      .block_red {
+        background-color: red;
       }
 
-      .listHeader {
-        list-style-type: none;
-
-        display: flex;
-      }
-
-      .mainContainer {
-        display: flex;
-        flex-direction: column;
-        height: 100vh;
-      }
-
-      .listItem {
-        margin-left: 16px;
-      }
-
-      .content {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: pink;
-        flex-grow: 1;
-      }
-      .mainContent {
-        display: flex;
-        flex-grow: 1;
-      }
-
-      .footer {
-        display: flex;
-        height: 40px;
+      .block_green {
         background-color: green;
       }
-
-      .footerText {
-        margin: auto;
+      .block_blue {
+        background-color: blue;
       }
-      .listNews {
-        list-style-type: none;
-        display: flex;
-        flex-direction: column;
+      .block_yellow {
+        background-color: yellow;
       }
-      .news {
-        width: 200px;
-        background-color: gray;
-        display: flex;
-        flex-direction: column;
+      .block_black {
+        background-color: black;
       }
-      .headNews {
-        margin-top: 16px;
+      .container {
         display: flex;
-        justify-content: center;
-      }
-
-      .newsItem {
-        display: flex;
-        height: 40px;
-        margin-left: 16px;
-        align-items: flex-end;
+        /* flex-wrap: wrap; */
+        /* flex-shrink: 0;
+        flex-grow: 1; */
+        /* height: 100vh; */
+        /* width: 100%; */
       }
     </style>
   </head>
+
   <body>
-    <div class="mainContainer">
-      <header class="header">
-        <ul class="listHeader">
-          <li class="listItem">About</li>
-          <li class="listItem">Products</li>
-          <li class="listItem">Contacts</li>
-        </ul>
-      </header>
-
-      <main class="mainContent">
-        <section class="content">
-          <h2>I can use Flexbox!!!</h2>
-        </section>
-
-        <aside class="news">
-          <div class="headNews"><h2 class="textNews">News</h2></div>
-
-          <ul class="listNews">
-            <li class="newsItem">News 1</li>
-            <li class="newsItem">News 2</li>
-            <li class="newsItem">News 3</li>
-          </ul>
-        </aside>
-      </main>
-
-      <footer class="footer"><span class="footerText">Footer</span></footer>
+    <div class="container">
+      <div class="block block_red"></div>
+      <div class="block block_green"></div>
+      <div class="block block_blue"></div>
+      <div class="block block_yellow"></div>
+      <div class="block block_black"></div>
     </div>
   </body>
 </html>
