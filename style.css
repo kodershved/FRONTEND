@@ -1,5 +1,4 @@
 * {
-  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -13,12 +12,12 @@
   padding: 16px;
   background-color: bisque;
   flex-basis: 300px;
-  flex-grow: 1;
+  flex-grow: 2;
   flex-shrink: 1;
 }
 
 .articles-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  /* justify-content: space-around; */
 }
