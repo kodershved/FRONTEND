@@ -1,19 +1,25 @@
+.articles {
+  display: flex;
+}
+
 div > div {
-  width: 100px;
   height: 100px;
-  background: coral;
+  width: 150px;
+  margin: 16px;
+  background-color: bisque;
 }
 
-/* put your code here */
-
-div > div:nth-child(1) {
-  display: none;
+.cropped {
+  overflow: hidden;
 }
 
-div > div:nth-child(2) {
-  visibility: hidden;
+.both-scrolls {
+  overflow: scroll;
 }
 
-div > div:nth-child(3) {
-  visibility: visible;
+.vertical-scroll {
+  overflow: auto;
+  cursor: all-scroll;
+  /* overflow-y: auto;
+  overflow-x: auto; */
 }
