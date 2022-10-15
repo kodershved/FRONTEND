@@ -1,6 +1,4 @@
 * {
-  margin: 0;
-  padding: 0;
 }
 
 .dropdown {
@@ -19,5 +17,23 @@
 }
 
 .menu-list {
+  top: 50px;
   display: none;
+  /* margin: 0;
+  padding: 0; */
+  color: black;
+  background-color: lightcyan;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  width: 120px;
+  z-index: 1;
+  list-style-type: none;
+  position: absolute;
+}
+
+.menu-item {
+  padding: 16px;
+}
+
+.dropdown:hover .menu-list {
+  display: block;
 }
