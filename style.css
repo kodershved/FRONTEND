@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
-  /* margin: 0;
-  padding: 0; */
+  margin: 0;
+  padding: 0;
 }
 .dropdown {
   margin: 16px;
@@ -28,8 +28,6 @@
   width: 120px;
   z-index: 1;
   position: relative;
-  padding: 0;
-  margin: 0;
 }
 
 .menu-item {
