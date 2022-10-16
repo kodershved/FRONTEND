@@ -1,31 +1,9 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
-.text {
-  margin: 16px;
-  border-bottom: 1px dotted black;
-  position: absolute;
-}
-
-.tooltip {
-  position: relative;
-  background-color: gray;
-  color: white;
-  border-radius: 4px;
-  padding: 8px;
-  visibility: hidden;
-  margin-left: 16px;
-  top: 49px;
-}
-
-.container {
+.gallery {
   display: flex;
-  flex-direction: column;
-  display: inline-block;
 }
 
-.container:hover .tooltip {
-  visibility: visible;
+.thumb {
+  margin: 8px;
+  overflow: auto;
+  cursor: all-scroll;
 }
