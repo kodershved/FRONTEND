@@ -6,15 +6,18 @@
 .text {
   margin: 16px;
   border-bottom: 1px dotted black;
+  position: absolute;
 }
 
 .tooltip {
+  position: relative;
   background-color: gray;
   color: white;
   border-radius: 4px;
   padding: 8px;
   visibility: hidden;
   margin-left: 16px;
+  top: 50px;
 }
 
 .container {
