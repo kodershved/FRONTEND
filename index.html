@@ -1,39 +1,22 @@
-* {
-}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-.dropdown {
-  margin: 16px;
-  display: inline-block;
-}
+  <body>
+    <div class="container">
+      <div class="text">Hover over me</div>
 
-.menu-button {
-  padding: 16px;
-  background-color: darkgreen;
-  position: absolute;
-  color: white;
-  opacity: 0.8;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-.menu-list {
-  top: 50px;
-  display: none;
-  /* margin: 0;
-  padding: 0; */
-  color: black;
-  background-color: lightcyan;
-  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
-  width: 120px;
-  z-index: 1;
-  list-style-type: none;
-  position: absolute;
-}
-
-.menu-item {
-  padding: 16px;
-}
-
-.dropdown:hover .menu-list {
-  display: block;
-}
+      <span class="tooltip">I'm a tooltip</span>
+    </div>
+  </body>
+</html>
