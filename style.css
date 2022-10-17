@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html {
   margin: 32px;
   font-family: Roboto, sans-serif;
@@ -7,6 +12,7 @@ html {
 h1 {
   word-spacing: 20px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 p {
