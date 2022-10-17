@@ -19,7 +19,7 @@
 }
 
 .menu-list {
-  top: 67px;
+  top: 50px;
   display: none;
   margin: 0;
   padding: 0;
@@ -29,7 +29,7 @@
   width: 120px;
   z-index: 1;
   list-style-type: none;
-  position: absolute;
+  position: relative;
 }
 
 .menu-item {
