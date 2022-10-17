@@ -4,15 +4,14 @@
 }
 
 .gallery {
-  display: flex;
+  display: inline-block;
 }
 
 .thumb {
-  /* position: relative;
   margin: 8px;
-  overflow: scroll;
-  flex-grow: 1;
-  flex-shrink: 1; */
-  margin: 8px;
-  overflow: scroll;
+}
+
+.gallery > * {
+  overflow: auto;
+  cursor: all-scroll;
 }
