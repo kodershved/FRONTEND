@@ -1,46 +1,28 @@
-* {
-  margin: 0;
-  padding: 0;
+html {
+  margin: 32px;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
 }
 
-.dropdown {
-  margin: 16px;
-  display: inline-block;
+h1 {
+  letter-spacing: 18px;
 }
 
-.menu-button {
-  padding: 16px;
-  background-color: darkgreen;
-  position: absolute;
-  color: white;
-  opacity: 0.8;
-  font-size: 16px;
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
+p {
+  line-height: 28px;
 }
 
-.menu-list {
-  display: none;
-  margin: 0;
-  padding: 0;
-  color: black;
-  background-color: lightcyan;
-  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
-  width: 120px;
-  z-index: 1;
-  list-style-type: none;
-  /* position: relative; */
+.technology {
+  font-weight: 900;
+  letter-spacing: 3px;
+  font-size: 24px;
+  opacity: 80%;
+}
+a {
+  text-decoration: none;
 }
 
-.menu-item {
-  padding: 16px;
-}
-
-.dropdown:hover .menu-list {
-  display: block;
-}
-
-.dropdown:hover .menu-button {
-  opacity: 1;
+.translation {
+  font-style: italic;
+  color: gray;
 }
