@@ -1,6 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .image {
   display: inline-block;
-  flex-wrap: nowrap;
   width: 200px;
   height: 200px;
   margin: 16px;
