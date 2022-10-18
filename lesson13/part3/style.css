@@ -1,6 +1,8 @@
 .super-header {
-  text-align: center;
   margin: 0;
+  padding: 16px;
+  position: relative;
+  text-align: center;
   font-size: 95px;
   text-transform: uppercase;
   font-family: Arial, Helvetica, sans-serif;
