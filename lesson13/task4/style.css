@@ -1,22 +1,21 @@
 * {
   margin: 0;
   padding: 0;
-<<<<<<< HEAD
+  border: 0;
   box-sizing: border-box;
 }
-
-.galery {
-=======
->>>>>>> a20bf89b8b565af73553e049823c7018c49f5011
+.gallery {
+  display: flex;
 }
 
 .image {
-  display: inline-block;
   width: 200px;
   height: 200px;
+  /* position: relative; */
   margin: 16px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   border: 1px dotted gray;
+  /* clear: both; */
 }
