@@ -9,7 +9,6 @@ html {
   justify-content: center;
   margin-top: 50px auto 0;
   min-height: auto;
-  border-radius: 4px;
 }
 
 .caption {
@@ -35,4 +34,8 @@ html {
 
 .invert-filter {
   filter: invert(100%);
+}
+
+.main {
+  border-radius: 4px;
 }
