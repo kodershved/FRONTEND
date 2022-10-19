@@ -12,7 +12,8 @@ html {
 }
 
 .caption {
-  text-align: center;
+  display: flex;
+  justify-content: center;
   text-transform: lowercase;
   height: 30px;
 }
