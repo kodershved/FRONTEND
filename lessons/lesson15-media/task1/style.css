@@ -6,6 +6,7 @@
 .img {
   display: flex;
   justify-content: center;
+  min-width: none;
 }
 
 .image-button {
