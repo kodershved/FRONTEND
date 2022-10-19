@@ -12,10 +12,8 @@ html {
 }
 
 .caption {
-  display: flex;
-  justify-content: center;
-  text-transform: lowercase;
-  height: 30px;
+  line-height: 30px;
+  text-align: center;
 }
 
 .card {
