@@ -1,10 +1,9 @@
 * {
-  margin: 0;
-  padding: 0;
-
-  box-sizing: border-box;
 }
 .galery {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .image {
@@ -16,5 +15,4 @@
   background-repeat: no-repeat;
   background-position: center;
   border: 1px dotted gray;
-  background-clip: border-box;
 }
