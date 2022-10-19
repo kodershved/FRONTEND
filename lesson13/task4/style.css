@@ -4,6 +4,8 @@
 
   box-sizing: border-box;
 }
+.galery {
+}
 
 .image {
   display: inline-block;
@@ -14,4 +16,5 @@
   background-repeat: no-repeat;
   background-position: center;
   border: 1px dotted gray;
+  background-clip: border-box;
 }
