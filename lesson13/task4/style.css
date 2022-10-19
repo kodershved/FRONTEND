@@ -3,15 +3,15 @@
   margin: 0;
 }
 .galery {
-  position: relative;
+
 }
 
 .image {
-  position: relative;
+
   display: inline-block;
   width: 200px;
   height: 200px;
-  margin: 15px;
+  margin: 16px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
