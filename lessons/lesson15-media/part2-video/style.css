@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.video-content {
+  display: block;
+  margin: 200px auto auto 200px;
+}
