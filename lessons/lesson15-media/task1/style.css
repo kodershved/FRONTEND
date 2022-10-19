@@ -6,7 +6,7 @@
 .img {
   display: flex;
   justify-content: center;
-  min-width: none;
+  min-width: 100vw;
 }
 
 .image-button {
