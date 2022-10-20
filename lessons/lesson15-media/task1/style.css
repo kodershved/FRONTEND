@@ -5,16 +5,28 @@
 
 .img {
   display: flex;
+  /* display: flex;
+  justify-content: center; */
+  /* /* max-width: 100vw; */
+  align-content: center;
   justify-content: center;
-  /* max-width: 100vw; */
-  height: auto;
+  max-width: 100%;
+}
+
+.img-first {
+  display: block;
+  margin: auto;
+  max-width: 100%;
 }
 
 .image-button {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  top: 141.5px;
+
+  top: calc(50% - 25px);
+  left: calc(50% - 100px);
+  top: 20%;
   width: 200px;
   height: 50px;
   background-color: bisque;
