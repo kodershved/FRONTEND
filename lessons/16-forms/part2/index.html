@@ -14,39 +14,45 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div>
-      <label for="lastName">Last Name</label>
-      <input type="text" name="lastName" value="Emerson" readonly />
-    </div>
-    <div>
-      <label for="age">Age</label>
-      <input type="number" name="age" min="3" max="10" required />
-    </div>
-    <div>
-      <input type="checkbox" name="agree" id="" disabled />
-      <label for="">Accept terms and conditions</label>
-    </div>
+    <form
+      action="
+    
+    "
+    >
+      <div>
+        <label for="lastName">Last Name</label>
+        <input type="text" name="lastName" value="Emerson" readonly />
+      </div>
+      <div>
+        <label for="age">Age</label>
+        <input type="number" name="age" min="3" max="10" required />
+      </div>
+      <div>
+        <input type="checkbox" name="agree" id="" disabled />
+        <label for="">Accept terms and conditions</label>
+      </div>
 
-    <div class="choose-gender">
-      <input type="radio" name="gender" id="male" checked />
-      <label for="male"> Male</label>
-      <input type="radio" name="gender" id="female" />
-      <label for="female">Female</label>
-      <input type="radio" name="gender" id="secret" />
-      <label for="secret"> Secret</label>
-    </div>
-    <div>
-      <textarea
-        name="description"
-        id=""
-        placeholder="Write description..."
-        maxlength="10"
-        required
-      ></textarea>
-    </div>
+      <div class="choose-gender">
+        <input type="radio" name="gender" id="male" checked />
+        <label for="male"> Male</label>
+        <input type="radio" name="gender" id="female" />
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="secret" />
+        <label for="secret"> Secret</label>
+      </div>
+      <div>
+        <textarea
+          name="description"
+          id=""
+          placeholder="Write description..."
+          maxlength="10"
+          required
+        ></textarea>
+      </div>
 
-    <div>
-      <button type="submit">Submit</button>
-    </div>
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
   </body>
 </html>
