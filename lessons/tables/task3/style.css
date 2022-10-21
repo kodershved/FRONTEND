@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+table {
+  margin: 16px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td {
+  width: 50px;
+  height: 50px;
+
+  text-align: center;
+}
+
+tr:nth-of-type(n + 2):nth-of-type(-n + 9)
+  > td:nth-of-type(n + 2):nth-of-type(-n + 9) {
+  border: 1px solid black;
+}
+
+tr:nth-of-type(n + 2):nth-of-type(-n + 9):nth-of-type(even)
+  > td:nth-of-type(n + 2):nth-of-type(-n + 9):nth-of-type(odd) {
+  background-color: black;
+}
+
+tr:nth-of-type(n + 2):nth-of-type(-n + 9):nth-of-type(odd)
+  > td:nth-of-type(n + 2):nth-of-type(-n + 9):nth-of-type(even) {
+  background-color: black;
+}
