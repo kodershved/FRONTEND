@@ -14,25 +14,21 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <form
-      action="
-    
-    "
-    >
-      <div>
+    <form action="">
+      <div class="form__input">
         <label for="lastName">Last Name</label>
         <input type="text" name="lastName" value="Emerson" readonly />
       </div>
-      <div>
+      <div class="form__input">
         <label for="age">Age</label>
         <input type="number" name="age" min="3" max="10" required />
       </div>
-      <div>
+      <div class="form__input">
         <input type="checkbox" name="agree" id="" disabled />
         <label for="">Accept terms and conditions</label>
       </div>
 
-      <div class="choose-gender">
+      <div class="choose-gender form__input">
         <input type="radio" name="gender" id="male" checked />
         <label for="male"> Male</label>
         <input type="radio" name="gender" id="female" />
@@ -40,7 +36,7 @@
         <input type="radio" name="gender" id="secret" />
         <label for="secret"> Secret</label>
       </div>
-      <div>
+      <div class="form__input">
         <textarea
           name="description"
           id=""
@@ -50,7 +46,7 @@
         ></textarea>
       </div>
 
-      <div>
+      <div class="form__input">
         <button type="submit">Submit</button>
       </div>
     </form>
