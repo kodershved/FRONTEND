@@ -1,21 +1,12 @@
 * {
   margin: 0;
+  box-sizing: border-box;
 }
 
 div {
-  box-sizing: border-box;
   margin: 8px;
 }
 
-.form {
-  /* display: flex;
-  flex-direction: column; */
+form {
   margin: 32px;
-}
-
-input {
-}
-
-.form__checkbox {
-  /* display: inline-block; */
 }
