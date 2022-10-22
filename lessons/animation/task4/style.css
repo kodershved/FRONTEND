@@ -21,9 +21,9 @@ body {
   border-radius: 10px;
   background-color: coral;
   line-height: 100px;
-  animation: move 2s infinite;
+  animation: move 2s;
   position: absolute;
-  animation-fill-mode: backwards;
+  animation-fill-mode: forwards;
   animation-timing-function: ease;
 }
 
