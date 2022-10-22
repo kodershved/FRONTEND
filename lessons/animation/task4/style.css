@@ -23,6 +23,7 @@ body {
   line-height: 100px;
   animation: move 2s infinite;
   position: relative;
+  animation-fill-mode: none;
 }
 
 @keyframes move {
