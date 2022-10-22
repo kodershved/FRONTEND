@@ -17,6 +17,7 @@
   font-weight: 700;
   border: none;
   line-height: 50px;
+  cursor: pointer;
 }
 
 .custom-button:hover > svg {
