@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 32px;
+}
+
+.rect {
+  margin-top: 16px;
+  background-color: coral;
+  text-align: center;
+  line-height: 100px;
+  opacity: 0.5;
+  width: 100px;
+  height: 100px;
+  transition-property: width;
+}
+
+.rect:hover {
+  width: 100%;
+  opacity: 1;
+  transition-duration: 0.5s;
+}
