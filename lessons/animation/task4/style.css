@@ -21,14 +21,14 @@ body {
   border-radius: 10px;
   background-color: coral;
   line-height: 100px;
-  animation: move 10s infinite;
-  position: relative;
-  animation-fill-mode: backwards;
+  animation: move 2s infinite;
+  position: absolute;
+  animation-fill-mode: none;
 }
 
 @keyframes move {
   from {
-    top: -200px;
+    top: -100px;
   }
   to {
     top: calc(50vh - 50px);
