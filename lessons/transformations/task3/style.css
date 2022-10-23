@@ -10,6 +10,8 @@
 
 .spinner {
   margin: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .spinner-text {
