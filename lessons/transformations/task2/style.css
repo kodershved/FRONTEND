@@ -17,6 +17,7 @@ body {
   color: white;
   border: 0;
   text-transform: uppercase;
+  font-weight: 700;
   margin: auto;
   animation: jump 0.5s 0.4s, rotate 0.5s ease-in-out, goright 1s 2s forwards;
   position: relative;
