@@ -18,8 +18,7 @@
   font-family: monospace;
   font-size: 16px;
   text-transform: uppercase;
-  /* animation: blinking 2s linear infinite; */
-  /* position: relative; */
+  animation: blinking 2s linear infinite;
 }
 
 .circle {
@@ -32,8 +31,7 @@
   border-bottom: 4px solid lightgray;
   margin: auto;
   margin-bottom: 8px;
-
-  /* animation: rotatecircle 2s linear; */
+  animation: rotatecircle 2s linear;
 }
 
 @keyframes blinking {
