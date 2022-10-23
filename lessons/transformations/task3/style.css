@@ -28,6 +28,7 @@
   border-bottom: 4px solid lightgray;
   margin: auto;
   margin-bottom: 8px;
+  transform: rotate(45deg);
   animation: rotatecircle 2s linear;
   position: relative;
 }
@@ -46,7 +47,7 @@
 
 @keyframes rotatecircle {
   from {
-    rotate: 0deg;
+    rotate: 45deg;
   }
   to {
     rotate: 360deg;
