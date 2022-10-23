@@ -17,6 +17,7 @@
   font-size: 16px;
   text-transform: uppercase;
   animation: blinking 2s linear infinite;
+  position: absolute;
 }
 
 .circle {
@@ -29,6 +30,7 @@
   border-bottom: 4px solid lightgray;
   margin: auto;
   margin-bottom: 8px;
+
   animation: rotatecircle 2s linear;
   /* position: relative; */
 }
