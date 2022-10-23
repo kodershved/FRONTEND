@@ -26,6 +26,7 @@
   border-left: 4px solid lightgray;
   border-right: 4px solid lightgray;
   border-bottom: 4px solid lightgray;
+  margin: auto;
   margin-bottom: 8px;
   animation: rotatecircle 2s linear;
   position: relative;
