@@ -2,13 +2,11 @@
   box-sizing: border-box;
 }
 
-body {
+.container {
   display: flex;
   height: 100vh;
-}
-
-.container {
-  margin: auto;
+  justify-content: center;
+  align-items: center;
 }
 
 .square {
@@ -18,18 +16,15 @@ body {
   background-color: #ff7f50;
 }
 
-@media only screen and (min-width: 600px) and (orientation: portrait) {
+@media only screen and (min-width: 600px) {
   .square {
     background-color: #8a2be2;
   }
 }
 
-@media only screen and (min-width: 600px) and (orientation: landscape) {
-  .square {
-    background-color: #8a2be2;
-  }
-
+@media only screen and (orientation: portrait) {
   .container {
     display: flex;
+    flex-direction: column;
   }
 }
