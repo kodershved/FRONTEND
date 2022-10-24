@@ -8,13 +8,13 @@
 }
 
 .tree {
-  content: url(small.jpeg);
+  content: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/small.jpg");
   display: block;
   max-width: 100%;
 }
 
 @media only screen and (min-width: 400px) {
   .tree {
-    content: url(big.jpeg);
+    content: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/big.jpeg");
   }
 }
