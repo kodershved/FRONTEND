@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #555;
+  font-size: 16px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.footer {
+  background-color: #e5e5e5;
+  padding: 0.5em;
+  width: 100%;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.navigation {
+  padding: 0.5em;
+}
+
+.nav-list {
+  display: block;
+  padding: 0;
+  list-style-type: none;
+}
+
+.nav-list-item {
+  background-color: #808080;
+  line-height: 2em;
+  margin-bottom: 0.5em;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: white;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.nav-list-link {
+  color: white;
+  text-decoration: none;
+}
+.section {
+  font-size: 1.25em;
+  padding: 0.5em;
+}
+
+.units-list {
+  line-height: 1.75em;
+}
+
+.news {
+  padding: 0.5em;
+}
+
+.css-units {
+  color: #8b0000;
+  background-color: #e5e5e5;
+  font-size: 1.125em;
+  font-weight: 700;
+}
+
+.section__header {
+  font-size: 5vw;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-image: linear-gradient(60deg, red, orange);
+}
+
+.header_img {
+  content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/hw2/small.png);
+  max-width: 100%;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (min-width: 900px) {
+  .header_img {
+    content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/hw2/big.png);
+  }
+
+  .main {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .navigation {
+    width: 20%;
+  }
+
+  .section {
+    width: 80%;
+  }
+  .news {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .header_img {
+    content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/hw2/big.png);
+  }
+
+  .main {
+    flex-direction: row;
+  }
+
+  .navigation {
+    width: 20%;
+  }
+
+  .section {
+    width: 60%;
+  }
+  .news {
+    width: 20%;
+  }
+}
