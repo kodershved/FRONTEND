@@ -1,10 +1,9 @@
-console.log("hello");
 function getSensOfLife() {
   return 42;
 }
 
 //option 1
-const res = getSensOfLife();
+const res = getSenseOfLife();
 console.log(res);
 
 function getSquared(number) {
@@ -46,3 +45,5 @@ console.log(mult("A", 1));
 const getMagicNumber = () => 17;
 
 console.log(getMagicNumber());
+
+const square = (number) => number * number;
