@@ -20,6 +20,7 @@ console.log(sum(1, 2));
 console.log(sum(100000, 2000000000000));
 
 console.log(sum([1, 2], [4, 6]));
+console.log(sum("a", "b"));
 
 function getMessage(age) {
   if (age < 0 || typeof age !== "number") {
