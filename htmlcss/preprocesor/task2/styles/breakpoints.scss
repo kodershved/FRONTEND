@@ -1,0 +1,51 @@
+$min-screen: 600px;
+$mid-screen: 900px;
+$max-screen: 1200px;
+
+@mixin for-small-portrait {
+  @media screen and (max-width: $min-screen) {
+    @content;
+  }
+}
+
+@mixin for-medium-portrait {
+  @media screen and (min-width: $min-screen) and (max-width: ($mid-screen - 1)) {
+    @content;
+  }
+}
+
+@mixin for-large-portrait {
+  @media screen and (min-width: $mid-screen) and (max-width: ($max-screen - 1 )) {
+    @content;
+  }
+}
+
+@mixin for-extra-large-portrait {
+  @media screen and (min-width: $max-screen) {
+    @content;
+  }
+}
+
+@mixin for-small-landscape {
+  @media screen and (max-width: $min-screen) and (orientation: landscape) {
+    @content;
+  }
+}
+
+@mixin for-medium-landscape {
+  @media screen and (min-width: $min-screen) and (max-width: ($mid-screen - 1)) and (orientation: landscape) {
+    @content;
+  }
+}
+
+@mixin for-large-landscape {
+  @media screen and (min-width: $mid-screen) and (max-width: ($max-screen - 1 )) and (orientation: landscape) {
+    @content;
+  }
+}
+
+@mixin for-extra-large-landscape {
+  @media screen and (min-width: $max-screen) and (orientation: landscape) {
+    @content;
+  }
+}

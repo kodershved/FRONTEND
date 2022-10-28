@@ -1,0 +1,74 @@
+@import "variables.scss";
+@import "breakpoints.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  @include for-small-portrait {
+    flex-direction: column;
+  }
+  @include for-medium-portrait {
+    flex-direction: column;
+  }
+  @include for-large-portrait {
+    flex-direction: column;
+  }
+  @include for-extra-large-portrait {
+    flex-direction: column;
+  }
+
+  @include for-small-landscape {
+    flex-direction: row;
+  }
+  @include for-medium-landscape {
+    flex-direction: row;
+  }
+  @include for-large-landscape {
+    flex-direction: row;
+  }
+  @include for-extra-large-landscape {
+    flex-direction: row;
+  }
+}
+
+.square {
+  width: $min-size;
+  height: $min-size;
+  margin: 8px;
+  background-color: #ff7f50;
+  @include for-small-portrait {
+    background-color: #ff7f50;
+  }
+  @include for-medium-portrait {
+    background-color: #8a2be2;
+  }
+  @include for-large-portrait {
+    background-color: #a61;
+  }
+  @include for-extra-large-portrait {
+    background-color: #c47;
+  }
+
+  @include for-small-landscape {
+    background-color: #ff7f50;
+  }
+  @include for-medium-landscape {
+    background-color: #8a2be2;
+  }
+  @include for-large-landscape {
+    background-color: #a61;
+  }
+  @include for-extra-large-landscape {
+    background-color: #c47;
+  }
+}
