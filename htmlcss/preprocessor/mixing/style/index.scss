@@ -1,0 +1,26 @@
+@import "breakpoint.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: coral;
+  margin: 16px;
+  @include for-mediaum-up {
+    background-color: aqua;
+  }
+
+  @include for-large-up {
+    background-color: gold;
+  }
+}
