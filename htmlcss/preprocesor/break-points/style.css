@@ -1,0 +1,76 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 600px) and (max-width: 899px) {
+  .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 900px) {
+  .container {
+    flex-direction: row;
+  }
+}
+
+.container__block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.navigation {
+  background-color: #ff7f50;
+}
+@media screen and (min-width: 600px) and (max-width: 899px) {
+  .navigation {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 900px) {
+  .navigation {
+    flex: 1;
+  }
+}
+
+.products-list {
+  background-color: #006400;
+  height: 200px;
+}
+@media screen and (min-width: 600px) and (max-width: 899px) {
+  .products-list {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 900px) {
+  .products-list {
+    flex: 1;
+  }
+}
+
+.news {
+  background-color: #0ff;
+  height: 200px;
+}
+@media screen and (min-width: 600px) and (max-width: 899px) {
+  .news {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 900px) {
+  .news {
+    flex: 1;
+  }
+}
+
+span {
+  text-transform: lowercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #faebd7;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+/*# sourceMappingURL=style.css.map */
