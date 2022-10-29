@@ -2,9 +2,14 @@
 
 * {
   box-sizing: border-box;
+  padding: 0;
 }
 
 html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;
+}
+
+.menu {
+  padding: 0;
 }
