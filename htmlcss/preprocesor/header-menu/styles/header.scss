@@ -8,7 +8,6 @@
 
 .menu {
   margin-left: 3em;
-  padding: 0;
   display: flex;
   padding-top: 0;
   padding-bottom: 0;
@@ -19,9 +18,9 @@
 
   &__item {
     height: 3em;
-    margin-left: 8px;
     padding-left: 8px;
     padding-right: 8px;
+
     cursor: pointer;
     display: flex;
     align-items: center;
