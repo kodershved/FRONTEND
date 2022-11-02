@@ -10,7 +10,7 @@ const getAdults = (obj) => {
 };
 
 // examples
-getAdults({ "John Doe": 19, Tom: 17, Bob: 18 }); // ==> { 'John Doe': 19, Bob: 18 }
+const test = getAdults({ "John Doe": 19, Tom: 17, Bob: 18 }); // ==> { 'John Doe': 19, Bob: 18 }
 getAdults({ Ann: 56, Andrey: 7 }); // ==> { Ann: 56 }
-
-console.log(getAdults({ "John Doe": 19, Tom: 17, Bob: 18 }));
+const test2 = { "John Doe": 19, Bob: 18 };
+console.log(test === test2);
